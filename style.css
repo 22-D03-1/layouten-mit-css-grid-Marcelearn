@@ -19,7 +19,7 @@ section {
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 32px repeat(4, 1fr) 32px;
+    grid-template-rows: 16px repeat(4, 1fr) 16px;
     gap: 5px;
     
 }
@@ -28,7 +28,11 @@ section > div {
     background-position: center;
     background-repeat: no-repeat; 
 }
-
+h2 {
+    font-size: medium;
+    font-weight: bolder;
+    padding-left: 5px;
+}
 span {
     font-weight: bolder;
 }
@@ -90,12 +94,11 @@ span {
 #design {
     color: red;
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 400;
     letter-spacing: 8px;
-    padding-left: 3px;
     grid-row-start: 3;
     grid-row-end: 4;
-    grid-column-start: 4;
+    grid-column-start: 3;
     grid-column-end: 7;
 }
