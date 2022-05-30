@@ -27,7 +27,8 @@ section {
 section > div {
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    aspect-ratio: 1; 
 }
 h2 {
     font-size: medium;
