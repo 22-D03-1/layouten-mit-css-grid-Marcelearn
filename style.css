@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: center;
     margin: 0.5rem;
+    background: #F5F5F5;
 
 }
 section {
@@ -20,7 +21,7 @@ section {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 16px repeat(4, 1fr) 16px;
-    gap: 5px;
+    gap: 0.5rem;
     
 }
 section > div {
@@ -93,11 +94,11 @@ span {
     font-style: italic;
 }
 #design {
-    color: red;
-    font-size: 7rem;
+    color: #FF0000;
+    font-size: 9rem;
     font-weight: lighter;
     padding-top: 30px;
-    letter-spacing: 8px;
+    letter-spacing: 1.2rem;
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 4;
